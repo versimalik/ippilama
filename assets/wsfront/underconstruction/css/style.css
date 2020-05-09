@@ -1,0 +1,483 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+html, body{
+    font-size: 100%;
+    background: url(../images/bg.jpg)no-repeat 0px 0px;
+		  background-size: cover;
+		 -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+  min-height: 1065px;
+	font-family: 'Open Sans', sans-serif;
+	  margin: 0;
+}
+.wrap{
+	width:80%;
+	margin:0 auto;
+}
+h1 {
+	font-family: 'Monoton', cursive;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  font-size: 3em;
+  font-style: italic;
+  margin: 0;
+  padding-top: 5em;
+}
+/* ---------- TIMER ---------- */
+.timer_wrap{
+	width:92%;
+	margin: 0 auto;
+  padding-bottom: 3em;
+}
+#counter {
+	height:160px;
+	font-size:60px;
+	color: #FFF;
+	overflow: hidden;
+}
+.timer{
+	border-top:2px ridge #5F5F5F;
+	border-bottom:2px ridge #5F5F5F;
+}
+.timer h4{
+	font-size: 14px;
+	color: #E5E5E5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.countDays, .countHours, .countMinutes, .countSeconds {
+display: inline-block;
+  width: 106px;
+  height: 106px;
+background: #c88703; /* Old browsers */
+background: -moz-linear-gradient(top,  #c88703 0%, #d29a02 36%, #fbda03 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c88703), color-stop(36%,#d29a02), color-stop(100%,#fbda03)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c88703', endColorstr='#fbda03',GradientType=0 ); /* IE6-9 */
+
+    margin-left: 10px;
+}
+.points {
+	float: left;
+	width:40px;
+	margin: 0;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 138px;
+	text-shadow: none;
+	color:#FFF;
+    display: none;
+}
+.boxName {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  color: #000;
+  font-style: italic;
+  font-weight: 600;
+  clear: both;
+  padding: 2px;
+}
+/* ---------- /TIMER ---------- */
+.banner-text {
+  width: 80%;
+  margin: 0% 10%;
+  text-align: center;
+}
+.banner-text a {
+  text-decoration: none;
+}
+ h2{
+color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-top: 3em;
+   margin: 0;
+}
+.bottom-form h3 {
+color: #fff;
+  font-weight: bold;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.bottom-form p {
+  padding: 0em 0 1em;
+  margin: 0;
+  color: #fff;
+  font-size: 0.8em;
+}
+.get-in {
+  float: left;
+  width: 33.3333%;
+}
+ul.header-bottom {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.header-bottom li {
+	display: inline-block;
+}
+ul.form {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bottom-form {
+  width: 100%;
+  margin: 0 auto;
+}
+input.email {
+  font-family: 'Open Sans', sans-serif;
+  width: 75%;
+  padding: 1em;
+  color: #999;
+  font-size: 15px;
+  outline: none;
+	background: #3B3B3B; 
+  border: none;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+input[type="submit"] {
+  border: none;
+  outline: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  color:#fff;
+  background: #c88703; /* Old browsers */
+background: -moz-linear-gradient(top,  #c88703 0%, #d29a02 36%, #fbda03 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c88703), color-stop(36%,#d29a02), color-stop(100%,#fbda03)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #c88703 0%,#d29a02 36%,#fbda03 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c88703', endColorstr='#fbda03',GradientType=0 ); /* IE6-9 */
+}
+input[type="submit"]:hover {
+	background: #fbda03; /* Old browsers */
+background: -moz-linear-gradient(top,  #fbda03 1%, #d29a02 36%, #c88703 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#fbda03), color-stop(36%,#d29a02), color-stop(100%,#c88703)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fbda03 1%,#d29a02 36%,#c88703 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fbda03 1%,#d29a02 36%,#c88703 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fbda03 1%,#d29a02 36%,#c88703 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fbda03 1%,#d29a02 36%,#c88703 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbda03', endColorstr='#c88703',GradientType=0 ); /* IE6-9 */
+}
+ul.header-bottom {
+  list-style: none;
+  padding: 0;
+  width: 33.33%;
+    float: left;
+    padding-top: 4.5em;
+  text-align: center;
+}
+ul.header-bottom li {
+	display: inline-block;
+}
+a.facebook {
+	background: url(../images/img.png) no-repeat 0px 0px;
+	width: 48px;
+	height: 48px;
+	display: block;
+}
+a.facebook:hover {
+	background: url(../images/img.png) no-repeat 0px -60px;
+}
+a.twitter {
+	background: url(../images/img.png) no-repeat -56px 0px;
+	width: 48px;
+	height: 48px;
+	display: block;
+}
+a.twitter:hover {
+	background: url(../images/img.png) no-repeat -56px -60px;
+}
+a.gp {
+	background: url(../images/img.png) no-repeat -112px 0px;
+	width: 48px;
+	height: 48px;
+	display: block;
+}
+a.gp:hover {
+	background: url(../images/img.png) no-repeat -112px -60px;
+}
+a.instagram {
+	background: url(../images/img.png) no-repeat -168px 0px;
+	width: 48px;
+	height: 48px;
+	display: block;
+}
+a.instagram:hover {
+	background: url(../images/img.png) no-repeat -168px -60px;
+}
+a.behance {
+	background: url(../images/img.png) no-repeat -224px 0px;
+	width: 48px;
+	height: 48px;
+	display: block;
+}
+a.behance:hover {
+	background: url(../images/img.png) no-repeat -224px -60px;
+}
+.tweets {
+  color: #fff;
+  font-weight: 100;
+  float: left;
+  width: 33.33%;
+    padding-top: 3.5em;
+    text-align: center;
+}
+.tweets h5 {
+  font-weight: 500;
+  font-size: 1em;
+}
+.tweets h6 {
+  font-weight: 100;
+  font-size: 13px;
+  color: #EEC602;
+  font-style: italic;
+  margin: 0;
+}
+/*--copy-rights--*/
+.copyrights {
+  padding-top: 1em;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+.copyrights p a {
+   color: #fff;
+  text-decoration: none;
+}
+.copyrights p a:hover {
+   color: #c1921c;
+}
+/*--/copy-rights--*/
+/*--start-responsive-design--*/
+@media (max-width:1440px){
+	html, body {
+	  min-height: 894px;
+	}
+	h1 {
+	  padding-top: 3em;
+	}
+	.banner-text {
+	  height: 236px;
+	}
+	h2 {
+	  padding-top: 1em;
+	}
+}
+@media (max-width:1024px){
+	.bottom-form p {
+	  font-size: 14px;
+	}
+	.banner-text {
+	  height: 252px;
+	}
+	input.email {
+	  padding: 1.2em;
+	  font-size: 13px;
+	}
+}
+@media (max-width:768px){
+	.get-in {
+	  float: none;
+	  width: 100%;
+	  margin: 0 auto;
+	  text-align: center;
+	}
+	ul.header-bottom {
+	  width: 100%;
+	  float: none;
+	  padding-top: 2.5em;
+	}
+	.tweets {
+	  float: none;
+	  width: 100%;
+	  padding-top: 0;
+	}
+	h1 {
+	  font-size: 2.3em;
+	  padding-top: 4em;
+	}
+		html, body {
+	  min-height: 929px;
+	}
+	.banner-text {
+	  height: 225px;
+	}
+	.bottom-form h3 {
+	  margin: 0;
+	}
+	.countDays, .countHours, .countMinutes, .countSeconds {
+		  width: 93px;
+		  height: 93px;
+	  }
+	#counter {
+	  height: 130px;
+	}
+	.copyrights {
+ 	 padding-top: 0;
+  	}
+}
+@media (max-width:640px){
+	.banner-text {
+	  width: 82%;
+	}
+	h1 {
+	  font-size: 1.8em;
+	  padding-top: 4em;
+	}
+	.tweets h6 {
+	  margin: 0 0 2em;
+	}
+	.tweets h5 {
+	  margin: 2em 0 0;
+	}
+}
+@media (max-width:480px){
+	h1 {
+	  font-size: 1.4em;
+	  padding-top: 7em;
+	}
+	h2 {
+	  padding-top: 0em;
+	  font-size: 15px;
+	}
+}
+@media (max-width:320px){
+	html, body {
+	  min-height: 490px;
+	}
+	.banner-text {
+	  height:130px;
+	}
+	ul.header-bottom {
+	  padding-top: 0.5em;
+	}
+	.wrap {
+	  width: 85%;
+	  margin: 0 auto;
+	}
+	h1 {
+	  font-size: .8em;
+	  padding-top: 13px;
+	  font-weight: bold;
+	}
+	h2 {
+	    padding: 1em 0;
+	  font-size: 12px;
+	}
+	.timer_wrap {
+	  padding-bottom: 0;
+	}
+	.bottom-form h3 {
+	  font-size: 1.2em;
+	  padding-top: .5em;
+	}
+	.bottom-form p {
+	  font-size: 11px;
+	}
+	input.email {
+	  width: 90%;
+	  font-size: 11px;
+  	}
+  	.tweets h5 {
+	  margin: .2em 0 0;
+	}
+  	input[type="submit"] {
+ 		 padding: 10px 16px;
+ 	 }
+ 	 ul.header-bottom p {
+	  font-size: 18px;
+	  font-weight: 700;
+	}
+ 	 a.facebook {
+	  background: url(../images/img.png) no-repeat 0px 0px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	 a.facebook:hover {
+	  background: url(../images/img.png) no-repeat 0px -34px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.twitter {
+	    background: url(../images/img.png) no-repeat -31px 0px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.twitter:hover {
+	    background: url(../images/img.png) no-repeat -31px -34px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.gp {
+	   background: url(../images/img.png) no-repeat -62px 0px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.gp:hover {
+	   background: url(../images/img.png) no-repeat -62px -34px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.instagram {
+	    background: url(../images/img.png) no-repeat -94px 0px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.instagram:hover {
+	    background: url(../images/img.png) no-repeat -94px -34px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.behance {
+	    background: url(../images/img.png) no-repeat -126px 0px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+	a.behance:hover {
+	    background: url(../images/img.png) no-repeat -126px -34px;
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  background-size: 155px;
+	}
+}
+/*--end-responsive-design--*/

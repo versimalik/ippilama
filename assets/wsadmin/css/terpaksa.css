@@ -1,0 +1,8 @@
+.userinfo{color:#FFF; }
+.icon-add:hover{ cursor: pointer; }
+.icon-add { padding: 10px 4px; position: relative; max-width: 32px; }
+tr.activerow{ background-color: #eaeff2; }
+.table-hover>tbody>tr:hover{ background-color:#eaeff2 }
+.table-striped>tbody>tr.activerow{ background-color: #eaeff2; }
+.search-btn{ margin-top: -3px; }
+center>span.butimage{ margin-left:6px; vertical-align : bottom; }
