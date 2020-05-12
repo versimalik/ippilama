@@ -27,9 +27,9 @@
               <div class="list-list">
                 <h2>SMK</h2>
                 <ul>
-                  <li><i class="fa fa-check-circle"></i>Akuntansi Keuangan dan Lembaga (AKL)</li>
+                  <li><i class="fa fa-check-circle"></i>Akuntansi dan Keuangan Lembaga (AKL)</li>
                   <li><i class="fa fa-check-circle"></i>Otomatisasi Tata Kelola dan Perkantoran (OTKP)</li>
-                  <li><i class="fa fa-check-circle"></i>Bisnis Dari dan Pemasaran (BDP)</li>
+                  <li><i class="fa fa-check-circle"></i>Bisnis Daring dan Pemasaran (BDP)</li>
                   <li><i class="fa fa-check-circle"></i>Teknik Komputer dan Jaringan (TKJ)</li>
                   <li><i class="fa fa-check-circle"></i>Teknik Kendaraan Ringan (TKR)</li>
                   <li><i class="fa fa-check-circle"></i>Rekayasa Perangkat Lunak (RPL)</li>
