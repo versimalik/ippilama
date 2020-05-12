@@ -27,16 +27,18 @@
               <div class="list-list">
                 <h2>SMK</h2>
                 <ul>
-                  <li><i class="fa fa-check-circle"></i>Akuntansi</li>
-                  <li><i class="fa fa-check-circle"></i>Administrasi Perkantoran</li>
-                  <li><i class="fa fa-check-circle"></i>Teknik Komputer Jaringan (TKJ)</li>
+                  <li><i class="fa fa-check-circle"></i>Akuntansi Keuangan dan Lembaga (AKL)</li>
+                  <li><i class="fa fa-check-circle"></i>Otomatisasi Tata Kelola dan Perkantoran (OTKP)</li>
+                  <li><i class="fa fa-check-circle"></i>Bisnis Dari dan Pemasaran (BDP)</li>
+                  <li><i class="fa fa-check-circle"></i>Teknik Komputer dan Jaringan (TKJ)</li>
                   <li><i class="fa fa-check-circle"></i>Teknik Kendaraan Ringan (TKR)</li>
+                  <li><i class="fa fa-check-circle"></i>Rekayasa Perangkat Lunak (RPL)</li>
                 </ul>
               </div>
               <div class="list-list">
                 <h2>SMA</h2>
                 <ul>
-                  <li><i class="fa fa-check-circle"></i>Ilmu Pengetahuan ALam (IPA)</li>
+                  <li><i class="fa fa-check-circle"></i>Matematika dan Ilmu Pengetahuan Alam (MIPA)</li>
                   <li><i class="fa fa-check-circle"></i>Ilmu Pengetahuan Sosial (IPS)</li>
                 </ul>
               </div>

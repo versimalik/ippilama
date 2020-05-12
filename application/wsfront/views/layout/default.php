@@ -7,7 +7,7 @@
   <title>SMP - SMA - SMK IT YP IPPI JAKARTA</title>
 
   <!-- PLUGINS CSS STYLE -->
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="icon" type="image/png" href="picture/favicon.png">
   <link href="<?php echo base_url('assets/wsfront'); ?>/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url('assets/wsfront'); ?>/plugins/selectbox/select_option1.css">
   <link rel="stylesheet" href="<?php echo base_url('assets/wsfront'); ?>/plugins/font-awesome/css/font-awesome.min.css">

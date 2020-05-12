@@ -2,16 +2,16 @@
   <div class="topbar clearfix">
     <div class="container">
       <ul class="topbar-left">
-        <li class="phoneNo"><i class="fa fa-phone"></i>(021) 48703207</li>
-        <li class="email-id hidden-xs hidden-sm"><i class="fa fa-envelope"></i>
+        <!--<li class="phoneNo"><i class="fa fa-phone"></i>(021) 48703207</li>-->
+        <!--<li class="email-id hidden-xs hidden-sm"><i class="fa fa-envelope"></i>
           <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-        </li>
+        </li>-->
       </ul>
       <ul class="topbar-right">
-        <li class="hidden-xs"><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li class="hidden-xs"><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li class="hidden-xs"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        <li class="hidden-xs"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+        <li class="hidden-xs"><a href="https://twitter.com/ypippicybersch"><i class="fa fa-twitter"></i></a></li>
+        <li class="hidden-xs"><a href="http://facebook.com/ypippipetojojkt"><i class="fa fa-facebook"></i></a></li>
+        <!--<li class="hidden-xs"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+        <li class="hidden-xs"><a href="https://www.youtube.com/channel/UCQjWecI8C0Js1neZIptCQGA"><i class="fa fa-youtube-play"></i></a></li>
         
         <!-- <li class="dropdown language">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -71,7 +71,7 @@
                       </li>
                     </ul>
                   </li>
-                <li class="dropdown <?php echo ($uri == 'education') ? 'active' : ''; ?>">
+                <!--<li class="dropdown <?php echo ($uri == 'education') ? 'active' : ''; ?>">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PENDIDIKAN</a>
                   <ul class="dropdown-menu">
                     <li><a href="<?php echo base_url('education/program'); ?>">AKREDITASI</a></li>
@@ -79,7 +79,7 @@
                     <li><a href="<?php echo base_url('education/prestasi'); ?>">PRESTASI</a></li>
                     <li><a href="<?php echo base_url('education/program'); ?>">PROGRAM</a></li>
                   </ul>
-                </li>
+                </li>-->
                 <li class="<?php echo ($uri == 'fasilitas') ? 'active' : ''; ?>">
                   <a href="<?php echo base_url('fasilitas'); ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">FASILITAS</a>
                 </li>
@@ -95,6 +95,9 @@
                 <li class="<?php echo ($uri == 'contact-us') ? 'active' : ''; ?>">
                   <a href="<?php echo base_url('contact-us'); ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">HUBUNGI KAMI</a>
                 </li>
+                <li class="<?php echo ($uri == 'event') ? 'active' : ''; ?>">
+                    <a href="<?php echo base_url()."event/read/2020/04/04/10/24/12/ppdb-online-yp-ippi-jakarta"; ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Pendaftaran ONline</a>
+                    </li>
                 <!-- <li class="apply_now"><a href="<?php echo base_url('register'); ?>">Pendaftaran</a></li> -->
               </ul>
             </div>

@@ -1,31 +1,43 @@
 <div class="banner carousel slide" id="recommended-item-carousel" data-ride="carousel">
   <div class="slides carousel-inner">
     <div class="item active">
-      <img src="<?php echo base_url('/picture/slider/2.png'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web1.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/3.png'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web2.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/4.png'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web3.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/5.png'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web4.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/8.jpg'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web5.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/9.jpeg'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web6.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/10.png'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web7.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/11.png'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web8.png'); ?>" alt="" />
     </div>
     <div class="item">
-      <img src="<?php echo base_url('/picture/slider/12.png'); ?>" alt="" />
+      <img src="<?php echo base_url('/picture/slider/web9.png'); ?>" alt="" />
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('/picture/slider/web10.png'); ?>" alt="" />
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('/picture/slider/web11.png'); ?>" alt="" />
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('/picture/slider/web12.png'); ?>" alt="" />
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('/picture/slider/web13.png'); ?>" alt="" />
     </div>
   </div>
   <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
@@ -35,6 +47,10 @@
     <img src="<?php echo base_url('assets/wsfront'); ?>/img/home/slider//next.png">
   </a>
 </div>
+
+<a href="https://www.ypippijkt.sch.id/event/read/2020/04/04/10/24/12/ppdb-online-yp-ippi-jakarta" type="button" class="btn btn-primary btn-lg btn-block">
+    <marquee>SMP - SMA - SMK YP IPPI Menerima Pendaftaran Online, KLik Untuk Informasi Lebih Lanjut!</marquee>
+</a>
 
 <div class="aboutArea">
   <div class="container">
@@ -115,7 +131,7 @@
             <h3>SAMBUTAN KEPALA SEKOLAH</h3>
             <div class="row">
               <div class="col-lg-8 col-md-7 col-xs-12 videoLeft">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/aUoyfSemOC8?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aUoyfSemOC8?autoplay=1" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <!-- videoLeft -->
               <div class="col-lg-4 col-md-5 col-xs-12 videoRight text-justify">
