@@ -49,7 +49,7 @@
 </div>
 
 <a href="https://www.ypippijkt.sch.id/event/read/2020/04/04/10/24/12/ppdb-online-yp-ippi-jakarta" type="button" class="btn btn-primary btn-lg btn-block">
-    <marquee>SMP - SMA - SMK YP IPPI Menerima Pendaftaran Online, KLik Untuk Informasi Lebih Lanjut!</marquee>
+    <marquee>Selamat Datang Di SMP SMA SMK YP IPPI JAKARTA. Penerimaan Peserta Didik Baru Tahun Pelajaran 2020-2021 >> klik untuk info lebih lanjut!</marquee>
 </a>
 
 <div class="aboutArea">
