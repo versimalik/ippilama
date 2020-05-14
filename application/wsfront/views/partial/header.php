@@ -98,7 +98,7 @@
                 <li class="<?php echo ($uri == 'event') ? 'active' : ''; ?>">
                     <a href="<?php echo base_url()."event/read/2020/04/04/10/24/12/ppdb-online-yp-ippi-jakarta"; ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Pendaftaran Online</a>
                 </li>
-                <li class="<?php echo ($uri == 'event') ? 'active' : ''; ?>">
+                <li>
                     <a href="https://skl.ypippijkt.sch.id/" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">SKL Online</a>
                 </li>
                 <!-- <li class="apply_now"><a href="<?php echo base_url('register'); ?>">Pendaftaran</a></li> -->
