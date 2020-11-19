@@ -14,3 +14,7 @@
 #ELEARNING ZONE
 #==================================
 /elearning
+
+.htaccess
+
+/application/wsfront/config/database.php

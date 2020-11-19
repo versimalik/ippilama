@@ -80,9 +80,9 @@
                     <li><a href="<?php echo base_url('education/program'); ?>">PROGRAM</a></li>
                   </ul>
                 </li>-->
-                <li class="<?php echo ($uri == 'fasilitas') ? 'active' : ''; ?>">
+                <!-- <li class="<?php echo ($uri == 'fasilitas') ? 'active' : ''; ?>">
                   <a href="<?php echo base_url('fasilitas'); ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">FASILITAS</a>
-                </li>
+                </li> -->
                 <li class="dropdown <?php echo ($uri == 'news' | $uri == 'event') ? 'active' : ''; ?>">
                   <a href="<?php echo base_url('news'); ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
                   <ul class="dropdown-menu">
@@ -105,6 +105,9 @@
                     <a href="http://smkypippi.lsp-dki.id" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">LSP</a>
                 </li>
                 <!-- <li class="apply_now"><a href="<?php echo base_url('register'); ?>">Pendaftaran</a></li> -->
+                <li class="<?php echo ($uri == 'kjppip') ? 'active' : ''; ?>">
+                    <a href="https://skl.ypippijkt.sch.id/" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">KJP | PIP</a>
+                </li>
               </ul>
             </div>
             <!-- navbar-collapse -->
