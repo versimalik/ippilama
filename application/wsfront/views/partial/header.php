@@ -106,7 +106,7 @@
                 </li>
                 <!-- <li class="apply_now"><a href="<?php echo base_url('register'); ?>">Pendaftaran</a></li> -->
                 <li class="<?php echo ($uri == 'kjppip') ? 'active' : ''; ?>">
-                    <a href="https://skl.ypippijkt.sch.id/" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">KJP | PIP</a>
+                    <a href="https://kjppip.ypippijkt.sch.id/" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">KJP | PIP</a>
                 </li>
               </ul>
             </div>
