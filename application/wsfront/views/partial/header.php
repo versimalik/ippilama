@@ -95,8 +95,30 @@
                 <li class="<?php echo ($uri == 'contact-us') ? 'active' : ''; ?>">
                   <a href="<?php echo base_url('contact-us'); ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">HUBUNGI KAMI</a>
                 </li>
-                <li class="<?php echo ($uri == 'event') ? 'active' : ''; ?>">
-                    <a href="<?php echo base_url()."event/read/2020/04/04/10/24/12/ppdb-online-yp-ippi-jakarta"; ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">PPDB Online</a>
+                <!--<li class="<?php //echo ($uri == 'event') ? 'active' : ''; ?>">-->
+                <!--    <a href="<?php //echo base_url()."event/read/2020/04/04/10/24/12/ppdb-online-yp-ippi-jakarta"; ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">PPDB Online</a>-->
+                <!--</li>-->
+                <!-- change ppdb online -->
+                <li class="dropdown ">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPDB Online</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Petojo</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://ppdb.ypippijkt.sch.id:3000/?npsn=20100288">SMK</a></li>
+                          <li><a href="http://ppdb.ypippijkt.sch.id:3000/?npsn=20100215">SMA</a></li>
+                          <li><a href="http://ppdb.ypippijkt.sch.id:3000/?npsn=20100249">SMP</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cakung</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="http://ppdb.ypippijkt.sch.id:3000/?npsn=20103501">SMK</a></li>
+                        <li><a href="http://ppdb.ypippijkt.sch.id:3000/?npsn=20103295">SMA</a></li>
+                        <li><a href="http://ppdb.ypippijkt.sch.id:3000/?npsn=20107170">SMP</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#">Adm. Online</a>
