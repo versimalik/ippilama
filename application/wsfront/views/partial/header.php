@@ -98,11 +98,15 @@
                 <li class="<?php echo ($uri == 'event') ? 'active' : ''; ?>">
                     <a href="<?php echo base_url()."event/read/2020/04/04/10/24/12/ppdb-online-yp-ippi-jakarta"; ?>" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">PPDB Online</a>
                 </li>
-                <li>
-                    <a href="https://skl.ypippijkt.sch.id/" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">SKL Online</a>
+                <li class="dropdown">
+                  <a href="#">Adm. Online</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://skl.ypippijkt.sch.id">SKL Online</a></li>
+                    <li><a href="https://daftarulang.ypippijkt.sch.id">Daftar Ulang Online</a></li>
+                  </ul>
                 </li>
                 <li>
-                    <a href="http://smkypippi.lsp-dki.id" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">LSP</a>
+                    <a href="http://smkypippi.lspbnsp.id" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">LSP</a>
                 </li>
                 <!-- <li class="apply_now"><a href="<?php echo base_url('register'); ?>">Pendaftaran</a></li> -->
                 <li class="<?php echo ($uri == 'kjppip') ? 'active' : ''; ?>">
