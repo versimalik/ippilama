@@ -121,10 +121,11 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#">Adm. Online</a>
-                  <ul class="dropdown-menu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Adm. Online</a>
+                  <ul class="dropdown-menu" >
                     <li><a href="https://skl.ypippijkt.sch.id">SKL Online</a></li>
                     <li><a href="https://daftarulang.ypippijkt.sch.id">Daftar Ulang Online</a></li>
+                    <li><a href="https://hasiltes.ypippijkt.sch.id">Hasil Test</a></li>
                   </ul>
                 </li>
                 <li>
